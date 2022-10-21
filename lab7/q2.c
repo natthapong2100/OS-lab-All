@@ -69,7 +69,7 @@ void  main(int  argc, char *argv[])
      exit(0);
 }
 
-void  ClientProcess(int  SharedMem[]) // ตรงนี้เปน child คำนวนตรงนี้, parent เปนตัวแสดงผล
+void  ClientProcess(int  SharedMem[]) // ตรงนี้เปน child คำนวนตรงนี้ แล้วให้ parent เปนตัวแสดงผล
 {
     printf("Child: I am calculating\n");
 
