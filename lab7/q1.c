@@ -21,7 +21,7 @@ int main(int argc, char **argv)
     perror("pipe failed");
     exit(1);
   }
-  if ((pid = fork()) < 0)
+  if ((pid = fork()) < 0) // fork here and check immediately
   {
     perror("fork failed");
     exit(2);

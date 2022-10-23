@@ -7,7 +7,8 @@
 #include <fcntl.h>
 #include <semaphore.h>
 
-#define BUFFER_SIZE 5
+// #define BUFFER_SIZE 5
+const int BUFFER_SIZE = 5;
 
 int count = 0; 
 // sem_t mutex; // need to shared with 2 thread, so global var
@@ -157,4 +158,4 @@ void *readBuffer(void *param) {
     }
     pthread_exit(0);
 }
-// latest ตรงสุดอันนี้ result ผีเข้าน้อย
+// latest ตรงสุดอันนี้ result ผีเข้าน้อย ******
