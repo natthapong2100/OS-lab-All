@@ -1,4 +1,4 @@
-// OS Lab 7 Q 1
+// OS Lab 8 Q 1
 // Natthapong Lueangphumphitthaya 63011208
 
 #include <pthread.h>
